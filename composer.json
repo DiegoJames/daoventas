@@ -1,0 +1,21 @@
+{
+  "name": "diegoorellana/daoventas",
+  "description": "Tienda daoventas",
+  "authors": [
+      {
+          "name": "Diego Orellana Canales",
+          "email": "daoorellana@gmail.com"
+      }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "illuminate/database": "5.2.21",
+    "phpmailer/phpmailer": "5.2.14",
+    "gregwar/captcha": "1.1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
